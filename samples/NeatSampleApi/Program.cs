@@ -1,8 +1,6 @@
-using System.Reflection;
-
 var builder = WebApplication.CreateBuilder(args);
 
-builder.AddNeatApi(Assembly.GetEntryAssembly()!);
+builder.AddNeatApi();
 
 var app = builder.Build();
 
