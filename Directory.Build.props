@@ -1,4 +1,10 @@
 <Project>
   <PropertyGroup>
+    <PackageId>NeatApi</PackageId>
+    <Version>0.0.1-alpha</Version>
+    <PackageTags>AspNetCore;Minimal API;Modular</PackageTags>
+    <Description>
+      A super simple library for helping you to modularize your minimal API project.
+    </Description>
   </PropertyGroup>
 </Project>
