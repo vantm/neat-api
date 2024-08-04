@@ -77,12 +77,12 @@ public class WeatherForecastRoutes() : GroupedRoutingModuleBase("/weatherforecas
 {
     protected override void AddRoutes(IEndpointRouteBuilder app, IEndpointConventionBuilder convention, IRoutingModuleContext context)
     {
-        convention.WithName("GetWeatherForecast").WithOpenApi();
+        convention.WithTags("WeatherForecast").WithOpenApi();
 
         app.MapGet("", (IWeatherForecastRepo repo) =>
         {
             return repo.GetForecasts();
-        });
+        }).WithName("GetWeatherForecast");
     }
 }
 ```
