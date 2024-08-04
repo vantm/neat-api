@@ -1,5 +1,8 @@
 # NEAT API
 
+![NuGet Version](https://img.shields.io/nuget/v/NeatApi)
+![GitHub last commit](https://img.shields.io/github/last-commit/vantm/neat-api)
+
 A super simple library to help you modularize your minimal API projects.
 
 ## Install
