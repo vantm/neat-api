@@ -64,7 +64,7 @@ public static class WebApplicationExtensions
             routingModule.AddRoutes(app, context);
 
             logger.LogInformation(
-                "The module {ModuleName} had been registered",
+                "The routing module {ModuleName} had been registered",
                 routingModule.GetType().FullName!);
         }
     }
