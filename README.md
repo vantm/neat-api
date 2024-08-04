@@ -19,11 +19,11 @@ Looking for detail implementations in the folder `/samples`. Here is the basic u
 
 var builder = WebApplication.CreateBuilder(args);
 
-+ builder.AddModules(Assembly.GetEntryAssembly()!);
++ builder.AddNeatApi(Assembly.GetEntryAssembly()!);
 
 var app = builder.Build();
 
-+ app.MapModuleRoutes();
++ app.MapNeatApi();
 
 app.Run();
 ```
