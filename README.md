@@ -1,6 +1,6 @@
 # NEAT API
 
-A super simple library for helping you to modularize your minimal API project.
+A super simple library to help you modularize your minimal API projects.
 
 ## Install
 
