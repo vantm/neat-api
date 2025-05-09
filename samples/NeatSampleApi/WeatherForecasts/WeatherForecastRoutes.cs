@@ -2,7 +2,7 @@
 
 namespace NeatSampleApi.WeatherForecasts;
 
-public class WeatherForecastRoutes() : GroupedRoutingModuleBase("/weatherforecast")
+public class WeatherForecastRoutes() : PathBaseRoutingModule("/weatherforecast")
 {
     protected override void AddRoutes(IEndpointRouteBuilder app, IEndpointConventionBuilder convention, IRoutingModuleContext context)
     {
