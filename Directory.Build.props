@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <BuildId>0</BuildId>
-    <Version>0.0.1-alpha.$(BuildId)</Version>
+    <VersionPrefix>0.0.1</VersionPrefix>
     <PackageTags>aspnetcore minimalapi neatapi neat api minimal</PackageTags>
     <PackageProjectUrl>https://github.com/vantm/neat-api</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
