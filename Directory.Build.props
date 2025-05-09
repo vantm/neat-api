@@ -1,6 +1,5 @@
 <Project>
   <PropertyGroup>
-    <PackageId>NeatApi</PackageId>
     <BuildId>0</BuildId>
     <Version>0.0.1-alpha.$(BuildId)</Version>
     <PackageTags>aspnetcore minimalapi neatapi neat api minimal</PackageTags>
